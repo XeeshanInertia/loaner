@@ -1,0 +1,56 @@
+body{
+  background-color: #6796ec;
+}
+.App {
+  text-align: center;
+  min-height: 50vh;
+  width: 400px;
+  margin: 40px auto;
+  background-color: rgb(92, 73, 160);
+}
+
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; 
+}
+
+#load-form input{
+  background-color:rgba(0, 139, 139, 0.5);
+  color: #fff;
+  border: 0;
+  width: 250px;
+  height: 50px;
+  margin: 7px;
+  padding: 0 20px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+/* #load-form input:first-child{
+  width: 150px;
+} */
+
+#load-form input:focus, button:focus{
+  outline: none;
+}
+
+#load-form input::placeholder{
+  color: rgba(255, 255, 255, 0.5);
+
+}
+
+#load-form button{
+  color: #fff;
+  height: 50px;
+  width: 60px;
+  border-radius: 5px;
+  background-color: rgb(202, 156, 24);
+  border: 0;
+  font-weight: bolder;
+  cursor: pointer;
+}
